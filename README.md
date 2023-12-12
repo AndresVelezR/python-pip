@@ -17,7 +17,7 @@ A simple console-based Rock, Paper, Scissors game implemented in Python.
 git clone https://github.com/AndresVelezR/python-pip.git
 cd game
 ```
-##Usage
+## Usage
 Run the game by executing the following command in your terminal or command prompt:
 ```
 python3 rps.py
@@ -25,7 +25,7 @@ python3 rps.py
 Follow the on-screen instructions to play the game.
 
 
-- ####Rules
+- #### Rules
 The rules of the game are simple:
 Rock crushes scissors.
 Scissors cuts paper.
