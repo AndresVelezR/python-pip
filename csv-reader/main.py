@@ -9,7 +9,7 @@ def run_population_by_year():
         population_dict = utils.get_selected_pupulation(country)
         labels = list(population_dict.keys())
         values = list(population_dict.values())
-        charts.generate_bar_chart(labels, values, country_name.title())
+        charts.generate_bar_chart(country_name, labels, values, country_name.title())
     else:
         print('The country you entered is not recognized, try again \n')
         run_population_by_year()

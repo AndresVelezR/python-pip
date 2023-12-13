@@ -1,6 +1,6 @@
 import read_csv
 
-data = read_csv.read_csv('./app/data.csv')
+data = read_csv.read_csv('data.csv')
 south_america_data = list(filter(lambda country: country['Continent'] == 'South America', data))
 population_years = [2022, 2020, 2015, 2010, 2000, 1990, 1980, 1970]
 
